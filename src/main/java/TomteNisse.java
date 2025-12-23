@@ -14,4 +14,8 @@ public class TomteNisse {
     public int getYears() {
         return years;
     }
+
+    public void changeName(String newName) {
+        this.namn = newName;
+    }
 }

@@ -27,16 +27,15 @@ public class nisseTest {
         assertEquals(50, years);
     }
 
-
+    @Test
+    public void changeNisseName(){
+        TomteNisse tomas = new TomteNisse("Tomas", 50);
+        tomas.changeName("Bob");
+        assertEquals("Bob", tomas.getName());
+    }
 }
 /*
-Skriv koden som gör att testet i uppgift 3 blir godkänt och spara parametrarna i två attribut: userName, password. För alla kommande uppgifter gör likadant Red – Green – Refactor
 
-Skriv test som hämtar attributet userName
-
-Skriv test som hämtar attributet passWord
-
-Skriv ett test som ändrar userName
 
 
  */
