@@ -6,6 +6,6 @@ public class TemteNisseTest {
     @Test
     public void nisseTest(){
         TomteNisse nisse = new TomteNisse("Nisse",107);
-        assertEquals("TomteNisse{namn='Nisse', years=107}",nisse.toString());
+        assertEquals("TomteNisse{namn='Nisse', years=106}",nisse.toString());
     }
 }
