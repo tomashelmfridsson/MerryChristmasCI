@@ -34,7 +34,6 @@ public class nisseTest {
         assertEquals("Bob", tomas.getName());
     }
 }
-/*
 
 
 
