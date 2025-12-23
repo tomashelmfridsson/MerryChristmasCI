@@ -6,4 +6,12 @@ public class TomteNisse {
         this.namn = namn;
         this.years = years;
     }
+
+    public String getNamn() {
+        return namn;
+    }
+
+    public int getYears() {
+        return years;
+    }
 }
