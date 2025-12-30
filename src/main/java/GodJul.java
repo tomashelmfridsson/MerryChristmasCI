@@ -6,5 +6,4 @@ public class GodJul {
         tomas.changeName("Bob");
         System.out.println("Nu heter Nissen "+tomas.getName());
     }
-
 }
