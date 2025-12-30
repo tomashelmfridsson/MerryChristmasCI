@@ -5,5 +5,6 @@ public class GodJul {
         System.out.println(tomas.getName() + " är " +tomas.getYears());
         tomas.changeName("Bob");
         System.out.println("Nu heter Nissen "+tomas.getName());
+        System.out.println();
     }
 }
