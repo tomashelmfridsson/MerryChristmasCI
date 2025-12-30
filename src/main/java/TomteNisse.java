@@ -1,6 +1,6 @@
 public class TomteNisse {
 
-    static String name;
+    public String name;
     int years;
 
     public TomteNisse(String name, int years) {
@@ -8,7 +8,7 @@ public class TomteNisse {
         this.years = years;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
@@ -17,6 +17,7 @@ public class TomteNisse {
     }
 
     public void changeName(String newName) {
-        this.name = newName;
+        name = newName;
     }
+
 }
