@@ -1,5 +1,5 @@
 public class TomteNisse {
-    String namn;
+    static String namn;
     int years;
 
     public TomteNisse(String namn, int years) {
@@ -7,11 +7,15 @@ public class TomteNisse {
         this.years = years;
     }
 
-    public String getNamn() {
+    public String getName() {
         return namn;
     }
 
     public int getYears() {
         return years;
+    }
+
+    public void changeName(String newName) {
+        this.namn = newName;
     }
 }
