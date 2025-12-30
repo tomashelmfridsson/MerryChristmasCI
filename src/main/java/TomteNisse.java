@@ -8,7 +8,7 @@ public class TomteNisse {
         this.years = years;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
