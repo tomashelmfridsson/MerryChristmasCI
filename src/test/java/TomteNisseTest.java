@@ -33,4 +33,16 @@ public class TomteNisseTest {
         tomas.changeName("Bob");
         assertEquals("Bob", tomas.getName());
     }
+    @Test
+    public void getTomteNisseNameAgeTest(){
+        TomteNisse tomte = new TomteNisse("Nisha", 38);
+        String name = tomte.getName();
+        int age = tomte.getYears();
+        // Verify name
+        assertEquals("Nisha",name);
+        //Verify age
+        assertEquals(38, age);
+
+    }
+
 }
