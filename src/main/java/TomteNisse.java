@@ -19,4 +19,5 @@ public class TomteNisse {
     public void changeName(String newName) {
         this.name = newName;
     }
+
 }
