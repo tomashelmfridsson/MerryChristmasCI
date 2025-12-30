@@ -1,21 +1,22 @@
 public class TomteNisse {
-    static String namn;
+
+    static String name;
     int years;
 
-    public TomteNisse(String namn, int years) {
-        this.namn = namn;
+    public TomteNisse(String name, int years) {
+        this.name = name;
         this.years = years;
     }
 
-    public String getName() {
-        return namn;
+    public static String getName() {
+        return name;
     }
 
-    public int getYears() {
+    public int getAge () {
         return years;
     }
 
     public void changeName(String newName) {
-        this.namn = newName;
+        this.name = newName;
     }
 }
