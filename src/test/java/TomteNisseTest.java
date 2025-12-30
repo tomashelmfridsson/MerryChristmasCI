@@ -7,7 +7,7 @@ public class TomteNisseTest {
     @Test
     public void shouldCreateNisse(){
         TomteNisse tomas = new TomteNisse("Tomas", 50);
-        String name = TomteNisse.name;
+        String name = tomas.name;
         assertEquals("Tomas", name);
         int years = tomas.years;
         assertEquals(50, years);

@@ -1,10 +1,10 @@
 public class TomteNisse {
 
-    static String name;
+    public String name;
     int years;
 
     public TomteNisse(String name, int years) {
-        TomteNisse.name = name;
+        this.name = name;
         this.years = years;
     }
 
