@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d6d0d3-a1b6-4d02-ac50-45c0a7c1cfeb" name="Changes" comment="Updated tomteNisse with getNamn and getYears function.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TomteNisseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TomteNisseTest.java" afterDir="false" />
+    <list default="true" id="54e7e87d-498d-4232-99f3-a0cf4adb393f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GodJul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GodJul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TomteNisse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TomteNisse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nisseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nisseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -30,47 +26,55 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;NishaVijayamma&quot;
+    &quot;assignee&quot;: &quot;LegendBerrie&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/tomashelmfridsson/MerryChristmasCI.git&quot;,
-    &quot;accountId&quot;: &quot;821f53d8-9b9f-4a8b-9211-0bda97c52198&quot;
+    &quot;accountId&quot;: &quot;c2c7d648-5a4f-4379-a220-2d6d9554dc3a&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="37FF8aCejfdFFlUZqUO1ekexOnY" />
+  <component name="ProjectId" id="37F5BAzUvIWpDeAgHCrz9Ky3ddN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.TomteNisseTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;NisseTest&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GodJul.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.nisseTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3068592",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="TomteNisseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.nisseTest">
+    <configuration name="GodJul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GodJul" />
+      <module name="MerryChristmasCI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nisseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MerryChristmasCI" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TomteNisseTest" />
+      <option name="MAIN_CLASS_NAME" value="nisseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,28 +82,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TomteNisseTest" />
+        <item itemvalue="JUnit.nisseTest" />
+        <item itemvalue="Application.GodJul" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91d6d0d3-a1b6-4d02-ac50-45c0a7c1cfeb" name="Changes" comment="" />
-      <created>1766490753469</created>
+      <changelist id="54e7e87d-498d-4232-99f3-a0cf4adb393f" name="Changes" comment="" />
+      <created>1766485840256</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1766490753469</updated>
+      <updated>1766485840256</updated>
     </task>
-    <task id="LOCAL-00001" summary="Updated tomteNisse with getNamn and getYears function.">
-      <option name="closed" value="true" />
-      <created>1766491341272</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1766491341272</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,9 +108,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated tomteNisse with getNamn and getYears function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated tomteNisse with getNamn and getYears function." />
   </component>
 </project>

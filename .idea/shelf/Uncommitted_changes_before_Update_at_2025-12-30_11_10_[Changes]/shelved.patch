@@ -1,0 +1,28 @@
+Index: src/main/java/nisseTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import org.junit.jupiter.api.Test;\r\n\r\nimport static org.junit.jupiter.api.Assertions.assertEquals;\r\n\r\npublic class nisseTest {\r\n\r\n    @Test\r\n    public void shouldCreateNisse(){\r\n        TomteNisse tomas = new TomteNisse(\"Tomas\", 50);\r\n        String namn = TomteNisse.namn;\r\n        assertEquals(\"Tomas\", namn);\r\n        int years = tomas.years;\r\n        assertEquals(50, years);\r\n    }\r\n\r\n    @Test\r\n    public void shouldGetNisseName(){\r\n        TomteNisse tomas = new TomteNisse(\"Tomas\", 50);\r\n        String actual = tomas.getName();\r\n        assertEquals(\"Tomas\", actual);\r\n    }\r\n\r\n    @Test\r\n    public void shouldGetNisseYears() {\r\n        TomteNisse tomas = new TomteNisse(\"Tomas\", 50);\r\n        int years = tomas.getYears();\r\n        assertEquals(50, years);\r\n    }\r\n\r\n    @Test\r\n    public void changeNisseName(){\r\n        TomteNisse tomas = new TomteNisse(\"Tomas\", 50);\r\n        tomas.changeName(\"Bob\");\r\n        assertEquals(\"Bob\", tomas.getName());\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/nisseTest.java b/src/main/java/nisseTest.java
+--- a/src/main/java/nisseTest.java	(revision 2cc4cd3f1303d22e427b06e1bbcc9b21474428d6)
++++ b/src/main/java/nisseTest.java	(date 1767087188000)
+@@ -7,8 +7,8 @@
+     @Test
+     public void shouldCreateNisse(){
+         TomteNisse tomas = new TomteNisse("Tomas", 50);
+-        String namn = TomteNisse.namn;
+-        assertEquals("Tomas", namn);
++        String name = TomteNisse.name;
++        assertEquals("Tomas", name);
+         int years = tomas.years;
+         assertEquals(50, years);
+     }
+@@ -23,7 +23,7 @@
+     @Test
+     public void shouldGetNisseYears() {
+         TomteNisse tomas = new TomteNisse("Tomas", 50);
+-        int years = tomas.getYears();
++        int years = tomas.getAge();
+         assertEquals(50, years);
+     }
+ 
