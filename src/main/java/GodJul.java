@@ -12,7 +12,7 @@ public class GodJul {
         System.out.println(nisse2.getName() + ", " + nisse2.getAge() + " år");
         System.out.println(nisse3.getName() + ", " + nisse3.getAge() + " år");
 
-        System.out.println("Ho ho ho");
+        System.out.println("Ho ho ho!");
 
     }
 }
