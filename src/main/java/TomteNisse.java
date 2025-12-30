@@ -4,7 +4,7 @@ public class TomteNisse {
     int years;
 
     public TomteNisse(String name, int years) {
-        this.name = name;
+        TomteNisse.name = name;
         this.years = years;
     }
 
@@ -17,7 +17,7 @@ public class TomteNisse {
     }
 
     public void changeName(String newName) {
-        this.name = newName;
+        name = newName;
     }
 
 }
